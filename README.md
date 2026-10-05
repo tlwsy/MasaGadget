@@ -459,16 +459,6 @@ ItemScroller 存储的配方编号，只支持 2x2 配方
 - Minecraft 26.2
 - Minecraft 26.3
 
-### 构建 26.3 Fabric 版本
-
-使用 JDK 25 运行：
-
-```shell
-./gradlew :26.3-fabric:build --configure-on-demand -Dfabric.loom.ci=true
-```
-
-构建产物位于 `versions/26.3-fabric/build/libs/`。运行时需要 Fabric Loader 0.19.5 或更新版本、MagicLib 0.8.882 或更新版本，以及适用于 Minecraft 26.3 的 MaliLib 0.30.2 或更新版本。
-
 ### 混淆映射表
 
 对于 Minecraft 1.14 - 1.21.11，我们使用 **Mojang 官方** 混淆映射表来反混淆 Minecraft 并插入补丁程序。
