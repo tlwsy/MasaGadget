@@ -457,6 +457,17 @@ And use `preprocess` to be compatible with all versions.
 - Minecraft 1.21.11
 - Minecraft 26.1.2
 - Minecraft 26.2
+- Minecraft 26.3
+
+### Build for 26.3 Fabric
+
+Run with JDK 25:
+
+```shell
+./gradlew :26.3-fabric:build --configure-on-demand -Dfabric.loom.ci=true
+```
+
+Build artifacts are in `versions/26.3-fabric/build/libs/`. Running the mod requires Fabric Loader 0.19.5 or later, MagicLib 0.8.882 or later, and MaliLib 0.30.2 or later for Minecraft 26.3.
 
 ### Mappings
 
